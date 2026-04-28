@@ -1,0 +1,116 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e52]:
+            - generic [ref=e55]: Create a pricing card component with a title, price, list of features, and a CTA button
+            - img [ref=e58]
+          - generic [ref=e74]:
+            - img [ref=e77]
+            - generic [ref=e82]:
+              - generic [ref=e85]: str_replace_editor
+              - separator [ref=e86]
+              - generic [ref=e87]:
+                - paragraph [ref=e88]: "Done. Created a pricing card component with:"
+                - list [ref=e89]:
+                  - listitem [ref=e90]:
+                    - strong [ref=e91]: Bold gradient borders
+                    - text: (violet/purple for highlighted, slate for standard)
+                  - listitem [ref=e92]:
+                    - strong [ref=e93]: Gradient text pricing
+                    - text: with period label
+                  - listitem [ref=e94]:
+                    - strong [ref=e95]: Feature list
+                    - text: with custom gradient checkmark circles
+                  - listitem [ref=e96]:
+                    - strong [ref=e97]: "\"Most Popular\" badge"
+                    - text: for highlighted tier
+                  - listitem [ref=e98]:
+                    - strong [ref=e99]: Gradient CTA button
+                    - text: with hover effects and shadow glow
+                  - listitem [ref=e100]:
+                    - strong [ref=e101]: Dark glassmorphism aesthetic
+                    - text: with backdrop blur and semi-transparent backgrounds
+                  - listitem [ref=e102]:
+                    - strong [ref=e103]: Hover scale effect
+                    - text: for interactivity
+                - paragraph [ref=e104]:
+                  - text: The component is reusable and displays two example cards (Professional and Enterprise) with different styling based on the
+                  - code [ref=e105]: highlighted
+                  - text: prop.
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [selected] [ref=e35]
+          - tab "Code" [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - iframe [ref=e106]:
+        - generic [ref=f5e3]:
+          - generic [ref=f5e7]:
+            - generic [ref=f5e8]:
+              - heading "Professional" [level=3] [ref=f5e9]
+              - paragraph [ref=f5e10]: Perfect for growing teams
+            - generic [ref=f5e12]:
+              - generic [ref=f5e13]: $49
+              - generic [ref=f5e14]: /month
+            - list [ref=f5e16]:
+              - listitem [ref=f5e17]:
+                - img [ref=f5e19]
+                - generic [ref=f5e21]: Up to 50 projects
+              - listitem [ref=f5e22]:
+                - img [ref=f5e24]
+                - generic [ref=f5e26]: Advanced analytics
+              - listitem [ref=f5e27]:
+                - img [ref=f5e29]
+                - generic [ref=f5e31]: Priority support
+              - listitem [ref=f5e32]:
+                - img [ref=f5e34]
+                - generic [ref=f5e36]: Custom integrations
+              - listitem [ref=f5e37]:
+                - img [ref=f5e39]
+                - generic [ref=f5e41]: Team collaboration tools
+              - listitem [ref=f5e42]:
+                - img [ref=f5e44]
+                - generic [ref=f5e46]: API access
+            - button "Get Started" [ref=f5e47] [cursor=pointer]
+          - generic [ref=f5e51]:
+            - generic [ref=f5e53]: MOST POPULAR
+            - generic [ref=f5e54]:
+              - heading "Enterprise" [level=3] [ref=f5e55]
+              - paragraph [ref=f5e56]: For large-scale operations
+            - generic [ref=f5e58]:
+              - generic [ref=f5e59]: $199
+              - generic [ref=f5e60]: /month
+            - list [ref=f5e62]:
+              - listitem [ref=f5e63]:
+                - img [ref=f5e65]
+                - generic [ref=f5e67]: Unlimited projects
+              - listitem [ref=f5e68]:
+                - img [ref=f5e70]
+                - generic [ref=f5e72]: Real-time analytics
+              - listitem [ref=f5e73]:
+                - img [ref=f5e75]
+                - generic [ref=f5e77]: 24/7 dedicated support
+              - listitem [ref=f5e78]:
+                - img [ref=f5e80]
+                - generic [ref=f5e82]: Custom integrations
+              - listitem [ref=f5e83]:
+                - img [ref=f5e85]
+                - generic [ref=f5e87]: Advanced team management
+              - listitem [ref=f5e88]:
+                - img [ref=f5e90]
+                - generic [ref=f5e92]: API access
+              - listitem [ref=f5e93]:
+                - img [ref=f5e95]
+                - generic [ref=f5e97]: SLA guarantee
+            - button "Contact Sales" [ref=f5e98] [cursor=pointer]
+  - alert [ref=e51]

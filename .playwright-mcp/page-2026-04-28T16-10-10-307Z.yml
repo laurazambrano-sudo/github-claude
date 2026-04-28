@@ -1,0 +1,173 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e15]:
+          - generic [ref=e52]:
+            - generic [ref=e55]: Create a pricing card component with a title, price, list of features, and a CTA button
+            - img [ref=e58]
+          - generic [ref=e61]:
+            - img [ref=e64]
+            - generic [ref=e69]:
+              - generic [ref=e72]: str_replace_editor
+              - separator [ref=e73]
+              - generic [ref=e76]: str_replace_editor
+              - separator [ref=e77]
+              - generic [ref=e78]:
+                - paragraph [ref=e79]:
+                  - text: Done! Created a reusable
+                  - code [ref=e319]: PricingCard
+                  - text: "component with:"
+                - list [ref=e81]:
+                  - listitem [ref=e82]: Title, price, and period
+                  - listitem [ref=e83]: Feature list with checkmark icons
+                  - listitem [ref=e84]: CTA button with click handler
+                  - listitem [ref=e85]: Fully styled with Tailwind CSS
+                - paragraph [ref=e86]: The App.jsx shows an example usage with sample data.
+        - generic [ref=e23]:
+          - textbox "Describe the React component you want to create..." [ref=e24]
+          - button [disabled] [ref=e25]:
+            - img [ref=e26]
+    - separator [ref=e29]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - tablist [ref=e34]:
+          - tab "Preview" [ref=e35]
+          - tab "Code" [selected] [ref=e36]
+        - generic [ref=e37]:
+          - button "Sign In" [ref=e38]
+          - button "Sign Up" [ref=e39]
+      - generic [ref=e89]:
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - generic [ref=e97] [cursor=pointer]:
+              - img [ref=e98]
+              - img [ref=e100]
+              - generic [ref=e102]: components
+            - generic [ref=e105] [cursor=pointer]:
+              - img [ref=e106]
+              - generic [ref=e111]: PricingCard.jsx
+          - generic [ref=e113] [cursor=pointer]:
+            - img [ref=e114]
+            - generic [ref=e119]: App.jsx
+        - separator [ref=e120]
+        - code [ref=e125]:
+          - generic [ref=e126]:
+            - generic [ref=e128]:
+              - generic [ref=e320]:
+                - generic [ref=e321] [cursor=pointer]: 
+                - generic [ref=e322]: "1"
+              - generic [ref=e133]: "2"
+              - generic [ref=e324]: "3"
+              - generic [ref=e326]: "4"
+              - generic [ref=e328]: "5"
+              - generic [ref=e330]: "6"
+              - generic [ref=e147]: "7"
+              - generic [ref=e331]:
+                - generic [ref=e332] [cursor=pointer]: 
+                - generic [ref=e333]: "8"
+              - generic [ref=e334]:
+                - generic [ref=e335] [cursor=pointer]: 
+                - generic [ref=e336]: "9"
+              - generic [ref=e337]:
+                - generic [ref=e338] [cursor=pointer]: 
+                - generic [ref=e339]: "10"
+              - generic [ref=e156]: "11"
+              - generic [ref=e158]: "12"
+              - generic [ref=e160]: "13"
+              - generic [ref=e162]: "14"
+              - generic [ref=e340]:
+                - generic [ref=e341] [cursor=pointer]: 
+                - generic [ref=e342]: "15"
+              - generic [ref=e166]: "16"
+              - generic [ref=e168]: "17"
+              - generic [ref=e170]: "18"
+              - generic [ref=e172]: "19"
+              - generic [ref=e174]: "20"
+              - generic [ref=e343]:
+                - generic [ref=e344] [cursor=pointer]: 
+                - generic [ref=e345]: "21"
+              - generic [ref=e346]:
+                - generic [ref=e347] [cursor=pointer]: 
+                - generic [ref=e348]: "22"
+              - generic [ref=e349]:
+                - generic [ref=e350] [cursor=pointer]: 
+                - generic [ref=e351]: "23"
+              - generic [ref=e352]:
+                - generic [ref=e353] [cursor=pointer]: 
+                - generic [ref=e354]: "24"
+              - generic [ref=e356]: "25"
+              - generic [ref=e358]: "26"
+              - generic [ref=e360]: "27"
+              - generic [ref=e361]:
+                - generic [ref=e362] [cursor=pointer]: 
+                - generic [ref=e363]: "28"
+              - generic [ref=e364]:
+                - generic [ref=e365] [cursor=pointer]: 
+                - generic [ref=e366]: "29"
+              - generic [ref=e368]: "30"
+              - generic [ref=e370]: "31"
+              - generic [ref=e373]: "32"
+              - generic [ref=e375]: "33"
+              - generic [ref=e377]: "34"
+              - generic [ref=e379]: "35"
+              - generic [ref=e381]: "36"
+              - generic [ref=e383]: "37"
+              - generic [ref=e385]: "38"
+              - generic [ref=e387]: "39"
+              - generic [ref=e389]: "40"
+              - generic [ref=e390]:
+                - generic [ref=e391] [cursor=pointer]: 
+                - generic [ref=e392]: "41"
+              - generic [ref=e394]: "42"
+              - generic [ref=e396]: "43"
+            - generic [ref=e271]:
+              - generic [ref=e600]: "export default function PricingCard({"
+              - generic [ref=e602]: title,
+              - generic [ref=e604]: price,
+              - generic [ref=e606]: period = '/month',
+              - generic [ref=e608]: features = [],
+              - generic [ref=e610]: buttonText = 'Get Started',
+              - generic [ref=e612]: "onButtonClick = () => {}"
+              - generic [ref=e614]: "}) {"
+              - generic [ref=e616]: return (
+              - generic [ref=e618]: <div className="bg-white rounded-lg shadow-lg p-8 w-full max-w-sm">
+              - generic [ref=e620]: "{/* Title */}"
+              - generic [ref=e622]: "<h2 className=\"text-2xl font-bold text-gray-900 mb-2\">{title}</h2>"
+              - generic [ref=e625]: "{/* Price */}"
+              - generic [ref=e627]: <div className="mb-6">
+              - generic [ref=e629]: "<span className=\"text-5xl font-bold text-gray-900\">{price}</span>"
+              - generic [ref=e631]: "<span className=\"text-gray-600 ml-2\">{period}</span>"
+              - generic [ref=e633]: </div>
+              - generic [ref=e636]: "{/* Features List */}"
+              - generic [ref=e638]: <ul className="space-y-4 mb-8">
+              - generic [ref=e640]: "{features.map((feature, index) => ("
+              - generic [ref=e642]: "<li key={index} className=\"flex items-center text-gray-700\">"
+              - generic [ref=e644]: <svg
+              - generic [ref=e646]: className="w-5 h-5 text-green-500 mr-3 flex-shrink-0"
+              - generic [ref=e648]: fill="currentColor"
+              - generic [ref=e650]: viewBox="0 0 20 20"
+              - generic [ref=e652]: ">"
+              - generic [ref=e654]: <path
+              - generic [ref=e656]: fillRule="evenodd"
+              - generic [ref=e658]: d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.
+              - generic [ref=e660]: 586l7.293-7.293a1 1 0 011.414 0z"
+              - generic [ref=e662]: clipRule="evenodd"
+              - generic [ref=e664]: />
+              - generic [ref=e666]: </svg>
+              - generic [ref=e668]: "{feature}"
+              - generic [ref=e670]: </li>
+              - generic [ref=e672]: "))}"
+              - generic [ref=e674]: </ul>
+              - generic [ref=e677]: "{/* CTA Button */}"
+              - generic [ref=e679]: <button
+              - generic [ref=e681]: "onClick={onButtonClick}"
+              - generic [ref=e683]: className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg
+            - textbox "Editor content" [ref=e317]: "}"
+          - 'tooltip "(parameter) title: any" [ref=e691]':
+            - generic [ref=e700]: "(parameter) title: any"
+  - alert [ref=e51]
+  - generic [ref=e318]:
+    - alert
+    - alert
